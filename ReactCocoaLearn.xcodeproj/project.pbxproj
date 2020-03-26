@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		672F7D63A08655366F5EB744 /* Pods_ReactCocoaLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13441E60D8819BA284853C94 /* Pods_ReactCocoaLearn.framework */; };
+		CA335A292429E384006E172B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA335A282429E384006E172B /* AppDelegate.m */; };
+		CA335A2C2429E384006E172B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA335A2B2429E384006E172B /* SceneDelegate.m */; };
+		CA335A2F2429E384006E172B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA335A2E2429E384006E172B /* ViewController.m */; };
+		CA335A322429E384006E172B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA335A302429E384006E172B /* Main.storyboard */; };
+		CA335A342429E385006E172B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA335A332429E385006E172B /* Assets.xcassets */; };
+		CA335A372429E385006E172B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA335A352429E385006E172B /* LaunchScreen.storyboard */; };
+		CA335A3A2429E385006E172B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA335A392429E385006E172B /* main.m */; };
+		CA335A442429E385006E172B /* ReactCocoaLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA335A432429E385006E172B /* ReactCocoaLearnTests.m */; };
+		CA335A4F2429E385006E172B /* ReactCocoaLearnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA335A4E2429E385006E172B /* ReactCocoaLearnUITests.m */; };
+		CACB4049242B4ABB0078F223 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CACB4048242B4ABB0078F223 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA335A402429E385006E172B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA335A1C2429E384006E172B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA335A232429E384006E172B;
+			remoteInfo = ReactCocoaLearn;
+		};
+		CA335A4B2429E385006E172B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA335A1C2429E384006E172B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA335A232429E384006E172B;
+			remoteInfo = ReactCocoaLearn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13441E60D8819BA284853C94 /* Pods_ReactCocoaLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactCocoaLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DFB3BA550894F3D3050FA22 /* Pods-ReactCocoaLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactCocoaLearn.release.xcconfig"; path = "Target Support Files/Pods-ReactCocoaLearn/Pods-ReactCocoaLearn.release.xcconfig"; sourceTree = "<group>"; };
+		AFC8CFEEBBAEE9427270CDDE /* Pods-ReactCocoaLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactCocoaLearn.debug.xcconfig"; path = "Target Support Files/Pods-ReactCocoaLearn/Pods-ReactCocoaLearn.debug.xcconfig"; sourceTree = "<group>"; };
+		CA335A242429E384006E172B /* ReactCocoaLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactCocoaLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA335A272429E384006E172B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA335A282429E384006E172B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA335A2A2429E384006E172B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CA335A2B2429E384006E172B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CA335A2D2429E384006E172B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA335A2E2429E384006E172B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA335A312429E384006E172B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA335A332429E385006E172B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA335A362429E385006E172B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA335A382429E385006E172B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA335A392429E385006E172B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA335A3F2429E385006E172B /* ReactCocoaLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactCocoaLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA335A432429E385006E172B /* ReactCocoaLearnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactCocoaLearnTests.m; sourceTree = "<group>"; };
+		CA335A452429E385006E172B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA335A4A2429E385006E172B /* ReactCocoaLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactCocoaLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA335A4E2429E385006E172B /* ReactCocoaLearnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactCocoaLearnUITests.m; sourceTree = "<group>"; };
+		CA335A502429E385006E172B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA335A5C2429F44E006E172B /* reactBridging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reactBridging.h; sourceTree = "<group>"; };
+		CACB4047242B4ABB0078F223 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CACB4048242B4ABB0078F223 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA335A212429E384006E172B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672F7D63A08655366F5EB744 /* Pods_ReactCocoaLearn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA335A3C2429E385006E172B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA335A472429E385006E172B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D1A93C0CF6C8A20220FB868 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFC8CFEEBBAEE9427270CDDE /* Pods-ReactCocoaLearn.debug.xcconfig */,
+				6DFB3BA550894F3D3050FA22 /* Pods-ReactCocoaLearn.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB67A3975997D7A96C8447D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13441E60D8819BA284853C94 /* Pods_ReactCocoaLearn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA335A1B2429E384006E172B = {
+			isa = PBXGroup;
+			children = (
+				CA335A262429E384006E172B /* ReactCocoaLearn */,
+				CA335A422429E385006E172B /* ReactCocoaLearnTests */,
+				CA335A4D2429E385006E172B /* ReactCocoaLearnUITests */,
+				CA335A252429E384006E172B /* Products */,
+				0D1A93C0CF6C8A20220FB868 /* Pods */,
+				BB67A3975997D7A96C8447D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA335A252429E384006E172B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA335A242429E384006E172B /* ReactCocoaLearn.app */,
+				CA335A3F2429E385006E172B /* ReactCocoaLearnTests.xctest */,
+				CA335A4A2429E385006E172B /* ReactCocoaLearnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA335A262429E384006E172B /* ReactCocoaLearn */ = {
+			isa = PBXGroup;
+			children = (
+				CA335A272429E384006E172B /* AppDelegate.h */,
+				CA335A282429E384006E172B /* AppDelegate.m */,
+				CA335A2A2429E384006E172B /* SceneDelegate.h */,
+				CA335A2B2429E384006E172B /* SceneDelegate.m */,
+				CA335A2D2429E384006E172B /* ViewController.h */,
+				CA335A2E2429E384006E172B /* ViewController.m */,
+				CACB4047242B4ABB0078F223 /* Person.h */,
+				CACB4048242B4ABB0078F223 /* Person.m */,
+				CA335A5C2429F44E006E172B /* reactBridging.h */,
+				CA335A302429E384006E172B /* Main.storyboard */,
+				CA335A332429E385006E172B /* Assets.xcassets */,
+				CA335A352429E385006E172B /* LaunchScreen.storyboard */,
+				CA335A382429E385006E172B /* Info.plist */,
+				CA335A392429E385006E172B /* main.m */,
+			);
+			path = ReactCocoaLearn;
+			sourceTree = "<group>";
+		};
+		CA335A422429E385006E172B /* ReactCocoaLearnTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA335A432429E385006E172B /* ReactCocoaLearnTests.m */,
+				CA335A452429E385006E172B /* Info.plist */,
+			);
+			path = ReactCocoaLearnTests;
+			sourceTree = "<group>";
+		};
+		CA335A4D2429E385006E172B /* ReactCocoaLearnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA335A4E2429E385006E172B /* ReactCocoaLearnUITests.m */,
+				CA335A502429E385006E172B /* Info.plist */,
+			);
+			path = ReactCocoaLearnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA335A232429E384006E172B /* ReactCocoaLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA335A532429E385006E172B /* Build configuration list for PBXNativeTarget "ReactCocoaLearn" */;
+			buildPhases = (
+				820819EDB93C4C2A5621C1AD /* [CP] Check Pods Manifest.lock */,
+				CA335A202429E384006E172B /* Sources */,
+				CA335A212429E384006E172B /* Frameworks */,
+				CA335A222429E384006E172B /* Resources */,
+				90747C129616CBB04701A11D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactCocoaLearn;
+			productName = ReactCocoaLearn;
+			productReference = CA335A242429E384006E172B /* ReactCocoaLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA335A3E2429E385006E172B /* ReactCocoaLearnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA335A562429E385006E172B /* Build configuration list for PBXNativeTarget "ReactCocoaLearnTests" */;
+			buildPhases = (
+				CA335A3B2429E385006E172B /* Sources */,
+				CA335A3C2429E385006E172B /* Frameworks */,
+				CA335A3D2429E385006E172B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA335A412429E385006E172B /* PBXTargetDependency */,
+			);
+			name = ReactCocoaLearnTests;
+			productName = ReactCocoaLearnTests;
+			productReference = CA335A3F2429E385006E172B /* ReactCocoaLearnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA335A492429E385006E172B /* ReactCocoaLearnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA335A592429E385006E172B /* Build configuration list for PBXNativeTarget "ReactCocoaLearnUITests" */;
+			buildPhases = (
+				CA335A462429E385006E172B /* Sources */,
+				CA335A472429E385006E172B /* Frameworks */,
+				CA335A482429E385006E172B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA335A4C2429E385006E172B /* PBXTargetDependency */,
+			);
+			name = ReactCocoaLearnUITests;
+			productName = ReactCocoaLearnUITests;
+			productReference = CA335A4A2429E385006E172B /* ReactCocoaLearnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA335A1C2429E384006E172B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "随风流年";
+				TargetAttributes = {
+					CA335A232429E384006E172B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					CA335A3E2429E385006E172B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = CA335A232429E384006E172B;
+					};
+					CA335A492429E385006E172B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = CA335A232429E384006E172B;
+					};
+				};
+			};
+			buildConfigurationList = CA335A1F2429E384006E172B /* Build configuration list for PBXProject "ReactCocoaLearn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA335A1B2429E384006E172B;
+			productRefGroup = CA335A252429E384006E172B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA335A232429E384006E172B /* ReactCocoaLearn */,
+				CA335A3E2429E385006E172B /* ReactCocoaLearnTests */,
+				CA335A492429E385006E172B /* ReactCocoaLearnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA335A222429E384006E172B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA335A372429E385006E172B /* LaunchScreen.storyboard in Resources */,
+				CA335A342429E385006E172B /* Assets.xcassets in Resources */,
+				CA335A322429E384006E172B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA335A3D2429E385006E172B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA335A482429E385006E172B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		820819EDB93C4C2A5621C1AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactCocoaLearn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90747C129616CBB04701A11D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactCocoaLearn/Pods-ReactCocoaLearn-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactCocoaLearn/Pods-ReactCocoaLearn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA335A202429E384006E172B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA335A2F2429E384006E172B /* ViewController.m in Sources */,
+				CA335A292429E384006E172B /* AppDelegate.m in Sources */,
+				CACB4049242B4ABB0078F223 /* Person.m in Sources */,
+				CA335A3A2429E385006E172B /* main.m in Sources */,
+				CA335A2C2429E384006E172B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA335A3B2429E385006E172B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA335A442429E385006E172B /* ReactCocoaLearnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA335A462429E385006E172B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA335A4F2429E385006E172B /* ReactCocoaLearnUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA335A412429E385006E172B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA335A232429E384006E172B /* ReactCocoaLearn */;
+			targetProxy = CA335A402429E385006E172B /* PBXContainerItemProxy */;
+		};
+		CA335A4C2429E385006E172B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA335A232429E384006E172B /* ReactCocoaLearn */;
+			targetProxy = CA335A4B2429E385006E172B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA335A302429E384006E172B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA335A312429E384006E172B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA335A352429E385006E172B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA335A362429E385006E172B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA335A512429E385006E172B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA335A522429E385006E172B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA335A542429E385006E172B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC8CFEEBBAEE9427270CDDE /* Pods-ReactCocoaLearn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFRVB6Y3M2;
+				INFOPLIST_FILE = ReactCocoaLearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongge.ReactCocoaLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CA335A552429E385006E172B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DFB3BA550894F3D3050FA22 /* Pods-ReactCocoaLearn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFRVB6Y3M2;
+				INFOPLIST_FILE = ReactCocoaLearn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongge.ReactCocoaLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CA335A572429E385006E172B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFRVB6Y3M2;
+				INFOPLIST_FILE = ReactCocoaLearnTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongge.ReactCocoaLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactCocoaLearn.app/ReactCocoaLearn";
+			};
+			name = Debug;
+		};
+		CA335A582429E385006E172B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFRVB6Y3M2;
+				INFOPLIST_FILE = ReactCocoaLearnTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongge.ReactCocoaLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactCocoaLearn.app/ReactCocoaLearn";
+			};
+			name = Release;
+		};
+		CA335A5A2429E385006E172B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFRVB6Y3M2;
+				INFOPLIST_FILE = ReactCocoaLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongge.ReactCocoaLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReactCocoaLearn;
+			};
+			name = Debug;
+		};
+		CA335A5B2429E385006E172B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KFRVB6Y3M2;
+				INFOPLIST_FILE = ReactCocoaLearnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dongge.ReactCocoaLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReactCocoaLearn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA335A1F2429E384006E172B /* Build configuration list for PBXProject "ReactCocoaLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA335A512429E385006E172B /* Debug */,
+				CA335A522429E385006E172B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA335A532429E385006E172B /* Build configuration list for PBXNativeTarget "ReactCocoaLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA335A542429E385006E172B /* Debug */,
+				CA335A552429E385006E172B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA335A562429E385006E172B /* Build configuration list for PBXNativeTarget "ReactCocoaLearnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA335A572429E385006E172B /* Debug */,
+				CA335A582429E385006E172B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA335A592429E385006E172B /* Build configuration list for PBXNativeTarget "ReactCocoaLearnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA335A5A2429E385006E172B /* Debug */,
+				CA335A5B2429E385006E172B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA335A1C2429E384006E172B /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_ReactCocoaLearn {
+  umbrella header "Pods-ReactCocoaLearn-umbrella.h"
+
+  export *
+  module * { export * }
+}
